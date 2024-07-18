@@ -14,9 +14,10 @@ body {
 }
 .nav-1 {
   margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   justify-content: space-around;
-  gap: 90px;
+  gap: 40px;
   align-items: center;
 }
 .nav-1 .image-logo {
@@ -37,10 +38,16 @@ body {
   opacity: 4%;
   background: #474747;
 }
-#search .placeholder {
-  color: white;
+#search::placeholder {
+  width: 166px;
+  height: 28px;
+  top: 50px;
+  left: 408px;
+  gap: 0px;
+  opacity: 0.6%;
+  background: #666666;
 }
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-around;
   gap: 20px;
@@ -57,7 +64,7 @@ body {
   background: none;
   cursor: pointer;
 }
-.register-button .text-button{
+.register-button .text-button {
   opacity: 0px;
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -69,23 +76,21 @@ body {
   text-decoration: underline;
 }
 .enter-button {
-  Property 1="Default";
   width: 114px;
   height: 40px;
   gap: 0px;
   opacity: 0px;
   border-radius: 8px;
   background: #c92071;
-  color: #F5F5F5;
+  color: #f5f5f5;
   border: none;
   cursor: pointer;
 }
-.enter-button .text-button-2{
+.enter-button .text-button-2 {
   width: 114px;
   height: 40px;
   gap: 0px;
   opacity: 0px;
-  styleName: Text X-Small Bold;
   font-family: Inter;
   font-size: 14px;
   font-weight: 700;
@@ -93,7 +98,7 @@ body {
   letter-spacing: 0.75px;
   text-align: center;
 }
-.icon-carrinho{
+.icon-carrinho {
   width: 33px;
   height: 29px;
   top: 47px;
@@ -104,7 +109,7 @@ body {
 }
 .menu {
   padding-top: 40px;
-  padding-left: 14px;
+  padding-left: 27px;
   display: flex;
 }
 .menu-lista {
@@ -119,18 +124,92 @@ body {
   list-style: none;
   cursor: pointer;
 }
-.menu-lista li:hover{
+.menu-lista li:hover {
   color: #c92071;
   text-decoration: underline;
   font-weight: bold;
 }
-.menu-lista .options{
+
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #f5f5f5;
+  padding: 50px;
+}
+
+.grid-1,
+.grid-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-hero,
+.title-hero,
+.paragraph-hero {
+  margin-bottom: 20px;
+}
+
+.offer-button {
+  width: 220px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: #c92071;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carousel-bubbles {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.bubble {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.bubble.active {
+  background-color: #c92071;
+}
+
+.menu-lista .options {
   width: 1440px;
   height: 192px;
   gap: 0px;
   opacity: 0px;
 }
-.hero{
+.hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 1440px;
@@ -138,9 +217,9 @@ body {
   top: 194px;
   gap: 0px;
   opacity: 0px;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
-.grid-1{
+.grid-1 {
   margin-left: 50px;
   margin-top: 75px;
   width: 510px;
@@ -150,23 +229,22 @@ body {
   gap: 0px;
   opacity: 0px;
 }
-.grid-1 .text-hero{
+.grid-1 .text-hero {
   width: 280px;
   height: 24px;
   top: 100px;
   left: 100px;
   gap: 0px;
   opacity: 0px;
-  styleName: Text Small Bold;
   font-family: Inter;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
   text-align: left;
-  color: #F6AA1C;
+  color: #f6aa1c;
 }
-.grid-1 .title-hero{
+.grid-1 .title-hero {
   width: 510px;
   height: 132px;
   top: 362px;
@@ -179,16 +257,15 @@ body {
   line-height: 66px;
   letter-spacing: 0.9999998807907104px;
   text-align: left;
-  color: #1F1F1F;
-} 
-.grid-1 .paragraph-hero{
+  color: #1f1f1f;
+}
+.grid-1 .paragraph-hero {
   width: 495px;
   height: 68px;
   top: 514px;
   left: 100px;
   gap: 0px;
   opacity: 0px;
-  styleName: Text Medium - Desktop;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -197,7 +274,7 @@ body {
   text-align: left;
   color: #474747;
 }
-.grid-1 .button-hero .offer-button{
+.grid-1 .button-hero .offer-button {
   width: 220px;
   height: 48px;
   margin-top: 40px;
@@ -205,9 +282,8 @@ body {
   opacity: 0px;
   border-radius: 8px;
   border: none;
-  background: #C92071;
-  color: #F5F5F5;
-  styleName: Text Small Bold;
+  background: #c92071;
+  color: #f5f5f5;
   font-family: Inter;
   font-size: 16px;
   font-weight: 700;
@@ -216,7 +292,3 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.grid-2 img{
-
-}
-
