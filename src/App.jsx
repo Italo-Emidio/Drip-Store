@@ -8,12 +8,12 @@ function App() {
 
   return (
     <>
-      <div>oi</div>
+      <div className="body-app">
       <Carrosel/>
       <ColecaoDestaque/>
       <ProductListing />
       <OfertaEspecial/>
-  
+    </div>
       
       </>
   )

@@ -1,4 +1,5 @@
 import React from "react";
+import './ProductCard.css'
 
 import chuchu from '/Layer1aa2.svg'
 
