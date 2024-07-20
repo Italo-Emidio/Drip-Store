@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+      <div>oi</div>
       <Carrosel/>
       <ColecaoDestaque/>
       <ProductCard />
