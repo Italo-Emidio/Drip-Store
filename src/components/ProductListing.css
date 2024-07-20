@@ -1,0 +1,7 @@
+.container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f9f8fe;
+}
