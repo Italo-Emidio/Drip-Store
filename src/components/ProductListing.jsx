@@ -1,5 +1,17 @@
+import ProductCard from "./ProductCard"
+
+
 export default function ProductListing() {
     return (
-        <div>oi</div>
+        <div>
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        </div>
     )
 };
