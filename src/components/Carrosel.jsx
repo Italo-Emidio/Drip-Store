@@ -1,4 +1,5 @@
 import './Carrosel.css'
+import tenisCarrosel from '/White-Sneakers-PNG-Clipart1.png'
 export default function Carrosel() {
     return (
         <div>
@@ -23,7 +24,7 @@ export default function Carrosel() {
                                 </div>
                             </div>
                             <div className="grid-2">
-                                <img src="./imagens/White-Sneakers-PNG-Clipart 1.png" />
+                                <img src= {tenisCarrosel} />
                             </div>
                         </div>
                     </div>
@@ -45,7 +46,7 @@ export default function Carrosel() {
                                 </div>
                             </div>
                             <div className="grid-2">
-                                <img src="./imagens/White-Sneakers-PNG-Clipart 1.png"/>
+                                <img src= {tenisCarrosel} />
                             </div>
                         </div>
                     </div>
