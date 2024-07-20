@@ -9,7 +9,7 @@ export default function ProductCard() {
     return (
       <>
         {/* <h1 style={{ textAlign: 'center' }}>Produtos em alta</h1> */}
-        <div className="container">
+        <div className="container-cardinho">
           <div className="div-2">
             <div className="fotodoproduto">
               <img className="kswiss" src={chuchu}  alt="Produto" />

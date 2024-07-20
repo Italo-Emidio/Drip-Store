@@ -4,6 +4,8 @@ import ProductCard from "./components/ProductCard"
 import Carrosel from "./components/Carrosel"
 import ProductListing from "./components/ProductListing"
 import Nav from "./components/Nav"
+
+import Footer from "./components/Footer"
 function App() {
   
 
@@ -15,6 +17,7 @@ function App() {
       <ColecaoDestaque/>
       <ProductListing />
       <OfertaEspecial/>
+      <Footer />
     </div>
       
       </>
