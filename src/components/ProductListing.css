@@ -5,3 +5,10 @@
     gap: 20px;
     background-color: #f9f8fe;
 }
+.titulo-product {
+    display: flex;
+    justify-content: space-around;
+    gap: 775px;
+    
+    
+}
