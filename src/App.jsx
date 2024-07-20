@@ -2,6 +2,7 @@ import ColecaoDestaque from "./components/ColecaoDestaque"
 import OfertaEspecial from "./components/OfertaEspecial"
 import ProductCard from "./components/ProductCard"
 import Carrosel from "./components/Carrosel"
+import ProductListing from "./components/ProductListing"
 function App() {
   
 
@@ -10,9 +11,7 @@ function App() {
       <div>oi</div>
       <Carrosel/>
       <ColecaoDestaque/>
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+      <ProductListing />
       <OfertaEspecial/>
   
       
