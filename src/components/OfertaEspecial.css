@@ -1,0 +1,38 @@
+.container-oferta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red ;  */
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+}
+
+.txt {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* border: 1px solid rgb(0, 255, 166); */
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Inter";
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid rgb(85, 255, 0); */
+    width: 100%;
+}
+
+.button {
+    width: 150px;
+    background-color: #C92071;
+    color: white;
+    border-radius: 60px;
+    padding: 5px 0px 5px 0px;
+    font-family: "Inter";
+    font-weight: bold;
+}
