@@ -1,220 +1,49 @@
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer-content {
-    background-color: var(--dark-gray, #1f1f1f);
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 76px 80px 26px;
-  }
-  
-  .footer-wrapper {
-    width: 100%;
-    max-width: 1240px;
-  }
-  
-  .footer-columns {
-    gap: 20px;
-    display: flex;
-  }
-  
-  .brand-column {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 37%;
-    margin-left: 0;
-  }
-  
-  .brand-content {
-    display: flex;
-    flex-direction: column;
-    color: var(--white, #fff);
-  }
-  
-  .brand-logo {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font: 600 36px/normal Inter, sans-serif;
-    letter-spacing: -0.36px;
-  }
-  
-  .logo-image {
-    aspect-ratio: 1;
-    object-fit: auto;
-    object-position: center;
-    width: 33px;
-    align-self: center;
-  }
-  
-  .brand-name {
-    font-family: Inter, sans-serif;
-    flex-grow: 1;
-    flex-basis: auto;
-  }
-  
-  .brand-description {
-    margin-top: 43px;
-    font: 400 16px/26px Inter, sans-serif;
-  }
-  
-  .social-icons {
-    aspect-ratio: 5.88;
-    object-fit: auto;
-    object-position: center;
-    width: 124px;
-    margin-top: 47px;
-    max-width: 100%;
-  }
-  
-  .info-column {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 63%;
-    margin-left: 20px;
-  }
-  
-  .info-content {
-    flex-grow: 1;
-  }
-  
-  .info-sections {
-    gap: 20px;
-    display: flex;
-  }
-  
-  .info-section {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 0;
-  }
-  
-  .info-block {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    color: var(--white, #fff);
-  }
-  
-  .info-title {
-    font: 600 18px Inter, sans-serif;
-  }
-  
-  .info-list {
-    margin-top: 41px;
-    font: 400 16px/38px Inter, sans-serif;
-  }
-  
-  .categories-section {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 20px;
-  }
-  
-  .categories-block {
-    display: flex;
-    flex-direction: column;
-    color: var(--white, #fff);
-    white-space: nowrap;
-  }
-  
-  .contact-section {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 20px;
-  }
-  
-  .contact-block {
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    color: var(--white, #fff);
-    font-weight: 400;
-  }
-  
-  .contact-address {
-    font-family: Inter, sans-serif;
-    line-height: 26px;
-    margin-top: 39px;
-  }
-  
-  .contact-phone {
-    font-family: Inter, sans-serif;
-    line-height: 162.5%;
-    margin-top: 24px;
-  }
-  
-  .footer-divider {
-    background-color: rgba(255, 255, 255, 1);
-    margin-top: 47px;
-    width: 1240px;
-    max-width: 100%;
-    height: 1px;
-  }
-  
-  .copyright {
-    color: var(--white, #fff);
-    font-feature-settings: "clig" off, "liga" off;
-    margin-top: 30px;
-    font: 400 13px/185% Inter, sans-serif;
-  }
-  
-  @media (max-width: 991px) {
-    .footer-content {
-      max-width: 100%;
-      padding: 0 20px;
-    }
-  
-    .footer-wrapper {
-      max-width: 100%;
-    }
-  
-    .footer-columns {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0;
-    }
-  
-    .brand-column,
-    .info-column,
-    .info-section,
-    .categories-section,
-    .contact-section {
-      width: 100%;
-      margin-left: 0;
-    }
-  
-    .brand-content,
-    .info-content,
-    .info-block,
-    .categories-block,
-    .contact-block {
-      margin-top: 40px;
-    }
-  
-    .brand-description,
-    .social-icons,
-    .info-list,
-    .footer-divider {
-      margin-top: 40px;
-    }
-  
-    .categories-block {
-      white-space: initial;
-    }
-  }
+.footer-bg-black {  /*fundo PRETO */
+  background-color: #000;
+}
+.footer-text-white { /*cor do texto como branco*/
+  color: #fff;
+}
+.footer-py-10 {  /*espaçamento interno (padding) */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container { /*largura do elemento será 90% da largura da tela*/
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-flex { /* layout flexível ao elemento */
+  display: flex;
+}
+.footer-justify-around {  /* itens dentro de um contêiner flexível*/
+  justify-content: space-around;
+}
+.footer-max-w-xs {  /*define a largura máxima do elemento*/
+  max-width: 300px;
+}
+
+.footer-leading-relaxed { /* espaçamento entre linhas ao tamanho da fonte*/
+  line-height: 1.625;
+}
+.footer-space-x-4 > * + * { /*adiciona uma margem à esquerda de 16 pixels */
+  margin-left: 16px;
+}
+.footer-list-none {  /*remove os marcadores de lista*/
+  list-style: none;
+  padding: 0;
+}
+.footer-mb-2 { /*adiciona uma margem inferior */
+  margin-bottom: 8px;
+}
+.footer-text-center { /*texto centralizado*/
+  text-align: center;
+}
+.footer-py-4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
