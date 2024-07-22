@@ -97,8 +97,8 @@ export default function Carrosel() {
 
                 </div>
                 <div className="carousel-bubbles">
-                    <span classNameName="bubble" onclick="currentSlide(0)"></span>
-                    <span classNameName="bubble" onclick="currentSlide(1)"></span>
+                    <span className="bubble" onclick="currentSlide(0)"></span>
+                    <span className="bubble" onclick="currentSlide(1)"></span>
                     <span className="bubble" onclick="currentSlide(2)"></span>
                     <span className="bubble" onclick="currentSlide(3)"></span>
                 </div>
