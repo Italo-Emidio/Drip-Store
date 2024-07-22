@@ -1,16 +1,16 @@
 import "./OfertaEspecial.css"
-import chuchu from '/tenis.png'
+import tenis from '/tenis.png'
 export default function OfertaEspecial() {
     return (
         <div className="container-oferta">
             <div className="img">
-                <img src={chuchu} alt="fundo" class="fundo" width="500px" />
+                <img src={tenis} alt="fundo" class="fundo" width="500px" />
             </div>
             <div className="txt">
-                <h3 className="corof">Oferta especial</h3>
+                <h3 className="cor-oferta">Oferta especial</h3>
                 <h1 style={{color: '#474747'}}>Air Jordan edição de colecionador</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam animi vitae autem, dolores quibusdam
-                    exercitationem sapiente doloribus maxime earum, quae quod reprehenderit.</p>
+                <p className="conteudo-oferta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                 <a href="/ofertas">
                     <button className="button"> Ver oferta </button>
                 </a>
