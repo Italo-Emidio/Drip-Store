@@ -12,7 +12,9 @@ export default function ProductCard() {
         <div className="container-cardinho">
           <div className="div-2">
             <div className="fotodoproduto">
-              <img className="kswiss" src={chuchu}  alt="Produto" />
+              <a href="#">
+                <img className="kswiss" src={chuchu}  alt="Produto" />
+                </a>
               <div className="v8">
                 <span className="desconto">30% OFF</span>
               </div>
