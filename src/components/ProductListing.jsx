@@ -6,8 +6,8 @@ export default function ProductListing() {
     return (
     <div>
         <div className="titulo-product">
-            <h3>Produtos em alta</h3>
-            <p>Ver Produtos <img src={seta} /></p>
+            <h2 className="product-em-altas">Produtos em alta</h2>
+            <p className="verprodutos">Ver Produtos <img className="setinha" src={seta} /></p>
         </div>
         <div className="container-card">
             
