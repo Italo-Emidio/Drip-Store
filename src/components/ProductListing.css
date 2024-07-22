@@ -1,8 +1,18 @@
+.div-daddy {
+    background-color: #f9f8fe;
+    width: 100%;
+    
+}
+
 .container-card {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    width: 75%;
+    padding-left: 250px;
+    gap: 25px;
+    /* gap: 110px; */
+    
     background-color: #f9f8fe;
     
 }
@@ -11,6 +21,7 @@
     background-color: #f9f8fe;
     display: flex;
     justify-content: space-around;
+    
     gap: 775px;
     
     
@@ -20,6 +31,7 @@
     background-color: #f9f8fe;
     font-weight: 700;
     font-size: 24px;
+    
 }
 .verprodutos {
     display: flex;
@@ -27,7 +39,4 @@
     flex-direction: row;
     align-items: baseline;
 }
-.setinha {
-    display: flex;
-    
-}
+

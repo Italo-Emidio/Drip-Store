@@ -21,8 +21,8 @@ export default function ProductCard() {
             </div>
   
             <div className="descricao-produto">
-              <p style={{ fontSize: 'small', fontWeight: 'bold' }}>Tênis</p>
-              <p style={{ fontSize: 'larger' }}>K-Swiss V8 - Masculino</p>
+              <p style={{ fontSize: 'small', fontWeight: 'bold', color: '#8f8f8f' }}>Tênis</p>
+              <p style={{ fontSize: 'larger', fontWeight: '400', color: '#474747' }}>K-Swiss V8 - Masculino</p>
               <p style={{ fontSize: 'x-large', padding: 0, margin: 0, fontWeight: 'bold' }}>
                 <span style={{ textDecoration: 'line-through', color: 'lightgrey' }}>$200</span> $100
               </p>
