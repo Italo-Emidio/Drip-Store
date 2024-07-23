@@ -15,8 +15,9 @@ import Search from "/Search.png";
 
 export default function Header() {
   const [carrinho, setCarrinho] = useState(0);
+
   const adicionarItem = () => {
-  setCarrinho(carrinho + 1);
+    setCarrinho(carrinho + 1);
   return (
     <div>
       <div className="nav">
@@ -81,4 +82,5 @@ export default function Header() {
       </div>
     </div>
   );
-};
+}
+}
