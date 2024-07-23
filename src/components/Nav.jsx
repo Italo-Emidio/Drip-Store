@@ -1,7 +1,7 @@
 import logodigital from "/logo-digital-college.png";
 import "./Nav.css";
 import iconecarrinho from "/icone-carrinho.png";
-import search from "/search.png";
+import Search from "/Search.png";
 import { useState } from "react";
 export default function Nav() {
   return (
@@ -19,7 +19,7 @@ export default function Nav() {
           <div className="search-container">
             <input id="search" type="text" placeholder="Pesquisar produto..." />
             <button className="button-search" type="submit">
-              <img src={search} alt="lupa de pesquisa" />
+              <img src={Search} alt="lupa de pesquisa" />
             </button>
         </div>
 
