@@ -11,84 +11,99 @@ export default function ColecaoDestaque() {
     return (
         <>
             <div className='box'>
-            <div> 
-                <h3 className='colecaodestaque'>Coleção em destaque</h3>
-                <div className='container-destaque'>
-                    <div className='banner-destaque'>
+                <div>
+                    <h3 className='colecaodestaque'>Coleção em destaque</h3>
+                    <div className='container-destaque'>
+                        <div className='banner-destaque'>
 
-                        <div>
-                            <div className='desconto-destaque'>
-                                30% off
+                            <div>
+                                <div className='desconto-destaque'>
+                                    30% off
+                                </div>
+                                <h2>Novo drop</h2>
+                                <h2>Supreme</h2>
+                                <div className='botao-destaque'>
+                                    <h5>Comprar</h5>
+                                </div>
                             </div>
-                            <h2>Novo drop</h2>
-                            <h2>Supreme</h2>
-                            <div className='botao-destaque'>
-                                <h5>Comprar</h5>
-                            </div>
-                        </div>
-                        <div>
-                            <img src={blusa} class='img-destaque'/>
-                        </div>
-                    </div>
-                    <div className='banner-destaque'>
-                        <div>
-                            <div className='desconto-destaque'>
-                                30% off
-                            </div>
-                            <h2>Coleção</h2>
-                            <h2>Adidas</h2>
-                            <div className='botao-destaque'>
-                                <h5>Comprar</h5>
+                            <div>
+                                <img src={blusa} class='img-destaque' />
                             </div>
                         </div>
-                        <div >
-                            <img src={tenisBranco} className='img-destaque'/>
-                        </div>
-                    </div>
-                    <div className='banner-destaque'>
-                        <div>
-                            <div className='desconto-destaque'>
-                                30% off
+                        <div className='banner-destaque'>
+                            <div>
+                                <div className='desconto-destaque'>
+                                    30% off
+                                </div>
+                                <h2>Coleção</h2>
+                                <h2>Adidas</h2>
+                                <div className='botao-destaque'>
+                                    <h5>Comprar</h5>
+                                </div>
                             </div>
-                            <h2>Novo</h2>
-                            <h2>Beat Bass</h2>
-                            <div className='botao-destaque'>
-                                <h5>Comprar</h5>
+                            <div >
+                                <img src={tenisBranco} className='img-destaque' />
                             </div>
                         </div>
-                        <div>
-                            <img src={headphone} className='img-destaque'/>
+                        <div className='banner-destaque'>
+                            <div>
+                                <div className='desconto-destaque'>
+                                    30% off
+                                </div>
+                                <h2>Novo</h2>
+                                <h2>Beat Bass</h2>
+                                <div className='botao-destaque'>
+                                    <h5>Comprar</h5>
+                                </div>
+                            </div>
+                            <div>
+                                <img src={headphone} className='img-destaque' />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 
-            <div className='container-2'>
-                <h4>Coleção em destaque</h4>
-                <div className='colecao-destaque'>
-                    <div className='icon'>
-                        <img src={blusaVermelha} alt='Imagem 1'/>
-                            <p>Camisetas</p>
-                    </div>
-                    <div className='icon'>
-                        <img src={calça} alt='Imagem 2'/>
-                            <p>Calças</p>
-                    </div>
-                    <div className='icon'>
-                        <img src={calça} alt='Imagem 3'/>
-                            <p>Bonés</p>
-                    </div>
-                    <div className='icon'>
-                        <img src={smallheadphone} alt='Imagem 4'/>
-                            <p>Headphones</p>
-                    </div>
-                    <div className='icon'>
-                        <img src={sneakers} alt='Imagem 5'/>
-                            <p>Tênis</p>
+                <div className='container-2'>
+                    <h4>Coleção em destaque</h4>
+                    <div className='colecao-destaque'>
+
+                        <div className='coluna'>
+                            <div className='icon'>
+                                <img src={blusaVermelha} alt='Imagem 1' />
+                            </div>
+                            <div><p>Camisetas</p></div>
+                        </div>
+
+                        <div className='coluna'>
+                            <div className='icon'>
+                                <img src={calça} alt='Imagem 2' />
+                            </div>
+                            <div><p>Calças</p></div>
+                        </div>
+
+                        <div className='coluna'>
+                            <div className='icon'>
+                                <img src={calça} alt='Imagem 3' />
+                            </div>
+                            <div><p>Bonés</p></div>
+                        </div>
+
+                        <div className='coluna'>
+                            <div className='icon'>
+                                <img src={smallheadphone} alt='Imagem 4' />
+                            </div>
+                            <div><p>Headphones</p></div>
+                        </div>
+
+                        <div className='coluna'>
+                            <div className='icon'>
+                                <img src={sneakers} alt='Imagem 5' />
+                            </div>
+                            <div><p>Tênis</p></div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </>
     )
