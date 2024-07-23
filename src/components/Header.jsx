@@ -9,9 +9,9 @@ import Search from "/Search.png";
 //const [carrinho, setCarrinho] = useState(0);
 
 // Função para adicionar um item ao carrinho
-const adicionarItem = () => {
-  setCarrinho(carrinho + 1);
-};
+//const adicionarItem = () => {
+  //setCarrinho(carrinho + 1);
+//};
 
 export default function Header() {
   const [carrinho, setCarrinho] = useState(0);
@@ -81,4 +81,4 @@ export default function Header() {
       </div>
     </div>
   );
-}
+};

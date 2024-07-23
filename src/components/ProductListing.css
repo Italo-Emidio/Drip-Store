@@ -1,6 +1,6 @@
 .div-daddy {
     background-color: #f9f8fe;
-    width: 100%;
+    
     
 }
 
@@ -9,6 +9,8 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    
+    
     
     gap: 25px;
     /* gap: 110px; */
@@ -40,4 +42,25 @@
     flex-direction: row;
     align-items: baseline;
 }
-
+@media (max-width: 900px) {
+    .container-card {
+        justify-content: flex-start; /* Ajusta para início da linha */
+        padding: 0 15px; /* Adiciona espaçamento lateral */
+        
+    }
+    
+    .titulo-product {
+        gap: 15px; /* Reduz o espaçamento entre os itens */
+        font-size: 16px; /* Reduz o tamanho do título */
+    }
+    
+    .product-em-altas {
+        font-size: 20px; /* Ajusta o tamanho do texto */
+        margin-left: 10px; /* Ajusta a margem esquerda */
+    }
+    
+    .verprodutos {
+        flex-direction: column; /* Alinha os itens verticalmente */
+        align-items: center; /* Centraliza os itens */
+    }
+}
