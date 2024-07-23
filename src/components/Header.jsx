@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logodigital from "/logo-digital-college.png";
-import "./Nav.css";
+import "./Header.css";
 import iconecarrinho from "/icone-carrinho.png";
 import Search from "/Search.png";
 
@@ -13,6 +13,8 @@ export default function Nav() {
     setCarrinho(carrinho + 1);
   };
 
+import { useState } from "react";
+export default function Header() {
   return (
     <div>
       <div className="nav">
