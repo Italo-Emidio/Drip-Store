@@ -1,9 +1,26 @@
+import React, { useState } from "react";
 import logodigital from "/logo-digital-college.png";
-import "./Nav.css";
+import "./Header.css";
 import iconecarrinho from "/icone-carrinho.png";
 import Search from "/Search.png";
-import { useState } from "react";
-export default function Nav() {
+
+// export default function Nav() {
+//   // Estado para armazenar a quantidade de itens no carrinho
+//   const [carrinho, setCarrinho] = useState(0);
+
+//   // Função para adicionar um item ao carrinho
+//   const adicionarItem = () => {
+//     setCarrinho(carrinho + 1);
+//   };
+
+
+export default function Header() {
+  // Estado para armazenar a quantidade de itens no carrinho
+  const [carrinho, setCarrinho] = useState(0);
+
+  const adicionarItem = () => {
+    setCarrinho(carrinho + 1);
+  };
   return (
     <div>
       <div className="nav">
@@ -15,14 +32,13 @@ export default function Nav() {
               alt="Logo da Digital College"
             />
           </div>
-          
+
           <div className="search-container">
             <input id="search" type="text" placeholder="Pesquisar produto..." />
             <button className="button-search" type="submit">
               <img src={Search} alt="lupa de pesquisa" />
             </button>
-        </div>
-
+          </div>
 
           <div className="buttons">
             <button className="register-button">
@@ -32,27 +48,37 @@ export default function Nav() {
               <span className="text-button-2">Entrar</span>
             </button>
           </div>
-          <div className="icon-carrinho" onClick={() => setCarrinho([...carrinho, 'novo item'])}>
+          <div className="icon-carrinho" onClick={adicionarItem}>
             <img
               className="icone-carrinho"
               src={iconecarrinho}
               alt="icone de carrinho"
             />
+            <span>{carrinho}</span>{" "}
+            {/* Exibe a quantidade de itens no carrinho */}
           </div>
         </div>
         <div className="menu">
           <ul className="menu-lista">
             <li>
-              <a className="options" href=""></a>Home
+              <a className="options" href="#home">
+                Home
+              </a>
             </li>
             <li>
-              <a className="options" href=""></a>Produtos
+              <a className="options" href="#produtos">
+                Produtos
+              </a>
             </li>
             <li>
-              <a className="options" href=""></a>Categorias
+              <a className="options" href="#categorias">
+                Categorias
+              </a>
             </li>
             <li>
-              <a className="options" href=""></a>Meus Pedidos
+              <a className="options" href="#meus-pedidos">
+                Meus Pedidos
+              </a>
             </li>
           </ul>
         </div>
@@ -60,3 +86,5 @@ export default function Nav() {
     </div>
   );
 }
+
+

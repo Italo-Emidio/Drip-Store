@@ -3,8 +3,7 @@ import OfertaEspecial from "./components/OfertaEspecial"
 import ProductCard from "./components/ProductCard"
 import Carrosel from "./components/Carrosel"
 import ProductListing from "./components/ProductListing"
-import Nav from "./components/Nav"
-
+import Header from "./components/Header"
 import Footer from "./components/Footer"
 function App() {
   
@@ -12,7 +11,7 @@ function App() {
   return (
     <>
       <div className="body-app">
-      <Nav />  
+      <Header />  
       <Carrosel/>
       <ColecaoDestaque/>
       <ProductListing />
