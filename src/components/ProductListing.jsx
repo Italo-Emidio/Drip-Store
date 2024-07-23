@@ -11,8 +11,8 @@ export default function ProductListing() {
         </div>
         <div className="container-card">
             
-            <ProductCard />
-            <ProductCard />
+            <ProductCard desconto = '50' />
+            <ProductCard desconto = '50' />
             <ProductCard />
             <ProductCard />
             <ProductCard />

@@ -5,7 +5,7 @@ import chuchu from '/Layer1aa2.svg'
 
  
 
-export default function ProductCard() {
+export default function ProductCard({desconto}) {
     return (
       <>
         {/* <h1 style={{ textAlign: 'center' }}>Produtos em alta</h1> */}
@@ -16,7 +16,7 @@ export default function ProductCard() {
                 <img className="kswiss" src={chuchu}  alt="Produto" />
                 </a>
               <div className="v8">
-                <span className="desconto">30% OFF</span>
+                {desconto && <span className="desconto"> {desconto}% OFF</span>}
               </div>
             </div>
   
