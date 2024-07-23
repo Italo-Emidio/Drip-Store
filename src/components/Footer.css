@@ -24,6 +24,9 @@
 }
 .footer-max-w-xs {  
   max-width: 300px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 
 .footer-leading-relaxed { 
@@ -58,13 +61,10 @@ a {
 .footer-logo-title img {
   margin-right: 10px;
 }
-.footer-contact p {
-  text-align: center;
-}
 .footer-divider {
   justify-content: center;
   align-items: baseline;
   background-color: #333333; /* Define a cor da linha */
   margin-left: 80px;
-  width: 80%; /* Define a largura da linha */
+  width: 90%; /* Define a largura da linha */
 }
