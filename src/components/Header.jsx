@@ -4,7 +4,17 @@ import "./Header.css";
 import iconecarrinho from "/icone-carrinho.png";
 import Search from "/Search.png";
 
-export default function Nav() {
+// export default function Nav() {
+//   // Estado para armazenar a quantidade de itens no carrinho
+//   const [carrinho, setCarrinho] = useState(0);
+
+//   // Função para adicionar um item ao carrinho
+//   const adicionarItem = () => {
+//     setCarrinho(carrinho + 1);
+//   };
+
+
+export default function Header() {
   // Estado para armazenar a quantidade de itens no carrinho
   const [carrinho, setCarrinho] = useState(0);
 
@@ -12,9 +22,6 @@ export default function Nav() {
   const adicionarItem = () => {
     setCarrinho(carrinho + 1);
   };
-
-import { useState } from "react";
-export default function Header() {
   return (
     <div>
       <div className="nav">
@@ -80,3 +87,5 @@ export default function Header() {
     </div>
   );
 }
+
+
