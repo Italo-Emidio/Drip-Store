@@ -24,6 +24,9 @@
 }
 .footer-max-w-xs {  
   max-width: 300px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 
 .footer-leading-relaxed { 
@@ -57,9 +60,6 @@ a {
 }
 .footer-logo-title img {
   margin-right: 10px;
-}
-.footer-contact p {
-  text-align: center;
 }
 .footer-divider {
   justify-content: center;
