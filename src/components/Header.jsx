@@ -1,9 +1,9 @@
 import logodigital from "/logo-digital-college.png";
-import "./Nav.css";
+import "./Header.css";
 import iconecarrinho from "/icone-carrinho.png";
 import Search from "/Search.png";
 import { useState } from "react";
-export default function Nav() {
+export default function Header() {
   return (
     <div>
       <div className="nav">
