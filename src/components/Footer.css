@@ -1,4 +1,9 @@
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .footer-cor-fundo {  /*cor de fundo do footer*/
   background-color: #1f1f1f;
 }
