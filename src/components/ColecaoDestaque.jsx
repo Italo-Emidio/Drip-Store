@@ -22,10 +22,10 @@ export default function ColecaoDestaque() {
                             <div className='desconto-destaque'> {/*Caixa que engloba o desconto do banner*/}
                                 <strong>30% OFF</strong>
                             </div>
-                            <h2>Novo drop</h2>
-                            <h2>Supreme</h2>
-                            <div className='botao-destaque'> {/*Div que engloba o botão de compra do banner*/}
-                                <h5>Comprar</h5>
+                            <h2 className='h2-ian'>Novo drop</h2>
+                            <h2 className='h2-ian'>Supreme</h2>
+                            <div className="botao-destaque"> {/*Div que engloba o botão de compra do banner*/}
+                                <h5 className='h5-ian'>Comprar</h5>
                             </div>
                         </div>
                         <div> {/*Caixa que engloba a imagem do banner*/}
@@ -38,10 +38,10 @@ export default function ColecaoDestaque() {
                             <div className='desconto-destaque'>
                                 <strong>30% OFF</strong>
                             </div>
-                            <h2>Coleção</h2>
-                            <h2>Adidas</h2>
-                            <div className='botao-destaque'>
-                                <h5>Comprar</h5>
+                            <h2 className='h2-ian'>Coleção</h2>
+                            <h2 className='h2-ian'>Adidas</h2>
+                            <div className="botao-destaque">
+                                <h5 className="h5-ian">Comprar</h5>
                             </div>
                         </div>
                         <div >
@@ -53,10 +53,10 @@ export default function ColecaoDestaque() {
                             <div className='desconto-destaque'>
                                 <strong>30% OFF</strong>
                             </div>
-                            <h2>Novo</h2>
-                            <h2>Beat Bass</h2>
-                            <div className='botao-destaque'>
-                                <h5>Comprar</h5>
+                            <h2 className='h2-ian'>Novo</h2>
+                            <h2 className='h2-ian'>Beat Bass</h2>
+                            <div className="botao-destaque">
+                                <h5 className="h5-ian">Comprar</h5>
                             </div>
                         </div>
                         <div>
@@ -69,7 +69,7 @@ export default function ColecaoDestaque() {
 
                 <div className='container-destaque-2'> {/*Conteiner que engloba todos as 5 seções*/}
 
-                    <h4>Coleção em destaque</h4>
+                    <h4 className='h4-ian'>Coleção em destaque</h4>
 
                     <div className='secao'> {/*Caixa que engloba os icones e seus elementos*/}
 
