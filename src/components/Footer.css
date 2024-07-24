@@ -1,70 +1,75 @@
 
-.footer-bg-black {  
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-cor-fundo {  /*cor de fundo do footer*/
   background-color: #1f1f1f;
 }
-.footer-text-white { 
+.footer-texto-branco { /*Define a cor do texto*/
   color: #fff;
 }
-.footer-py-10 {  
+.footer-espacamento {  /*seria o tamanho  do espaçamento (retangulo preto)*/
   padding-top: 40px;
   
 }
-.container { 
+.container {  
   width: 90%;
-  max-width: 1200px;
+  max-width: 1200px; 
   margin: 0 auto;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.footer-flex { 
+.footer-flex { /*Layout flexível.*/
   display: flex;
 }
-.footer-justify-around {  
+.footer-justify-around {  /*Espaço igual ao redor dos itens*/
   justify-content: space-around;
 }
-.footer-max-w-xs {  
+.footer-column {  /*organiza os itens em uma coluna,todos alinhados ao topo, utilizando Flexbox*/
   max-width: 300px;
   display: flex;
   align-items: start;
   flex-direction: column;
 }
 
-.footer-leading-relaxed { 
+.footer-line-height { /*ajusta o espaçamento vertical entre as linhas de texto*/
   line-height: 1.625;
 }
-.footer-space-x-4 > * + * { 
-  margin-left: 16px;
+.footer-item-gap > * + * {  /*espaçamento dos icones*/
+  margin-left: 25px;
 }
-.footer-list-none {  
+.footer-list-none {  /*Remove os marcadores de lista*/
   list-style: none;
   padding: 0;
 }
-.footer-mb-2 { 
-  margin-bottom: 8px;
+.footer-margin-bottom { /*cria uma separação clara entre os itens.*/
+  margin-bottom: 10px;
 }
-.footer-text-center { 
+.footer-text-center { /*centraliza o texto*/
   text-align: center;
 }
-.footer-py-4 {
+.footer-padding {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-a {
+a { /*cor do texto e remove o sublinhado dos links*/
   color: inherit;
   text-decoration: none;
 }
 
-.footer-logo-title {
+.footer-logo-title { /*Flexbox para organizar o logotipo e o texto*/
   display: flex;
   align-items: center;
 }
-.footer-logo-title img {
+.footer-logo-title img { /* separando o texto da imagem*/
   margin-right: 10px;
 }
-.footer-divider {
+.footer-line {
   justify-content: center;
   align-items: baseline;
-  background-color: #333333; /* Define a cor da linha */
+  background-color: #333333; 
   margin-left: 80px;
-  width: 90%; /* Define a largura da linha */
+  width: 89%; 
 }

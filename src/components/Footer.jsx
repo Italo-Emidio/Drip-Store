@@ -7,50 +7,50 @@ import twitter from '/twitter.png'
 export default function Footer() {
     return  (
     <>
-      <footer className="footer-bg-black footer-text-white footer-py-10">
+      <footer className="footer-cor-fundo footer-texto-branco footer-espacamento">
       <div className="container footer-flex footer-justify-around">
-          <div className="footer-max-w-xs">
+          <div className="footer-column">
               <div className="footer-logo-title">
                   <img src={DigCol} alt=""/>
-                  <h3 className="footer-text-lg footer-mb-5">Digital Store</h3>
+                  <h3 className="footer-text-lg ">Digital Store</h3>
               </div>
-              <p className="footer-text-sm footer-leading-relaxed footer-mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-              <div className="footer-flex footer-space-x-4">
+              <p className="footer-leading-relaxed ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              <div className="footer-flex footer-item-gap  ">
                   <img src={facebook} alt=""/>
                   <img src={instagram} alt=""/>
                   <img src={twitter} alt=""/>
               </div>
           </div>
-          <div className="footer-max-w-xs">
-              <h4 className="footer-text-lg footer-mb-5">Informação</h4>
+          <div className="footer-column">
+              <h4 className="footer-text-lg ">Informação</h4>
               <ul className="footer-list-none">
-                  <li className="footer-mb-2"><a href="#">Sobre Drip Store</a></li>
-                  <li className="footer-mb-2"><a href="#">Segurança</a></li>
-                  <li className="footer-mb-2"><a href="#">Wishlist</a></li>
-                  <li className="footer-mb-2"><a href="#">Blog</a></li>
-                  <li className="footer-mb-2"><a href="#">Trabalhe conosco</a></li>
-                  <li className="footer-mb-2"><a href="#">Meus Pedidos</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Sobre Drip Store</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Segurança</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Wishlist</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Blog</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Trabalhe conosco</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Meus Pedidos</a></li>
               </ul>
           </div>
-          <div className="footer-max-w-xs">
-              <h4 className="footer-text-lg footer-mb-5">Categorias</h4>
+          <div className="footer-column">
+              <h4 className="footer-text-lg ">Categorias</h4>
               <ul className="footer-list-none">
-                  <li className="footer-mb-2"><a href="#">Camisetas</a></li>
-                  <li className="footer-mb-2"><a href="#">Calças</a></li>
-                  <li className="footer-mb-2"><a href="#">Bonés</a></li>
-                  <li className="footer-mb-2"><a href="#">Headphones</a></li>
-                  <li className="footer-mb-2"><a href="#">Tênis</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Camisetas</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Calças</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Bonés</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Headphones</a></li>
+                  <li className="footer-margin-bottom"><a href="#">Tênis</a></li>
               </ul>
           </div>
-          <div className="footer-max-w-xs footer-contact">
-              <h4 className="footer-text-lg footer-mb-5">Contato</h4>
-              <p className="footer-text-sm footer-leading-relaxed footer-mb-2">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
-              <p className="footer-text-sm footer-leading-relaxed">(85) 3051-3411</p>
+          <div className="footer-column footer-contact">
+              <h4 className="footer-text-lg ">Contato</h4>
+              <p className="footer-text-sm footer-line-height footer-margin-bottom">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+              <p className="footer-text-sm footer-line-height">(85) 3051-3411</p>
           </div>
       </div>
   </footer>
-   <div className="footer-bg-black footer-text-white footer-text-center footer-py-4">
-   <hr className="footer-divider" />
+   <div className="footer-cor-fundo footer-texto-branco footer-text-center footer-padding">
+   <hr className="footer-line" />
       <p>© 2022 Digital Store</p>
   </div>
   </>

@@ -1,88 +1,88 @@
-.box {
+box {
     background-color: #f9f8fe;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+} /*Classe que padroniza a cor de fundo e a fonte*/
 
 
 h4{
     display: flex;
     justify-content: center;
-}
+} /*Esta tag é um titulo e precisava ser acertada na tela*/
 
 h5{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 12px;
-}
+} /*Esta tag esta presente no botão de compra e precisava ficar centralizada dentro da div*/
 
 h2{
     margin: 0;
-}
+} /*Esta tag precisava fica sem espaçamentos*/
 
-.colecaodestaque{
-    margin-left: 14px;
-}
+.titulo{
+    margin-left: 40px;
+} /*Esta tag é um titulo e precisava estar em cima do banner da esquerda*/
 
 .container-destaque{
     display: flex;
     justify-content: center;
     gap: 20px;
-}
+} /*Classe que distribui os banners de maneira separada e centralizada na tela*/
 
-.container-2{
+.container-destaque-2{
     margin-top: 80px;
-}
+} /*Classe feita para separar o conteiner dos icones do conteiner dos banners*/
 
 .banner-destaque{
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 0px;
     background-color: rgba(216, 227, 242, 1);
-}
+} /*Classe que adiciona uma cor pro fundo do banner e centraliza seus elementos dentro do próprio*/
 
-.colecao-destaque{
+.secao{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 0;
-}
+} /*Classe que centraliza todos as seções */
 
-.icon{
+.icone{
     text-align: center;
     padding: 10px;
     cursor: pointer;
     border-radius: 100%;
     background-color: #ffffff;
     transition: transform 0.3s ease;
-}
+    transition: box-shadow 0.3s;
+} /*Classe que faz os icones serem interativos*/
 
-.icon:hover{
+.icone:hover{
     transform: scale(1.1);
-}
+    box-shadow: 5px 5px 5px rgba(221, 219, 219, 0.788);
+} /*Classe que faz os icones serem interativos*/
 
 .coluna{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} /*Classe que faz os títulos de seções ficarem em baixo dos icones e os alinha*/
 
 .botao-destaque{
     width: 150px;
     height: 40px;
     border-radius: 7px;
-    background-color: #C92071;
-    color: white;
+    background-color: #ffffff;
+    color: rgba(201, 32, 113, 1);
     cursor: pointer;
     transition: 0.5s ease;
     margin: 10px;
-}
+} /*Classe que adiciona interatividade para o botão de compra dos banners*/
 
 .botao-destaque:hover {
-    background-color: #8a1b61;
-}
+    background-color: #000000;
+} /*Classe que adiciona interatividade para o botão de compra dos banners*/
 
 .desconto-destaque{
     width: 100px;
@@ -90,11 +90,12 @@ h2{
     color: rgb(0, 0, 0);
     background-color: #e7ff86;
     margin: 10px;
-}
+} /*Classe que adiciona espaçamento, tamanho e cor ao desconto dos banners*/
 
 .img-destaque{
     display: flex;
     width: 220px;
     height: 200px;
     
-}
+} /*Classe que aumenta o tamanho das imagens do banner*/
+

@@ -1,7 +1,7 @@
 .container-oferta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
     @media (max-width: 900px) {
         flex-direction: column;
@@ -60,5 +60,5 @@
 }
 
 .button:hover {
-    background-color: #8a1b61;
+  background-color: #8a1b61;
 }
