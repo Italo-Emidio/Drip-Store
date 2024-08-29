@@ -1,8 +1,12 @@
-# React + Vite
+# Projeto-DripStore-Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto do FrontEnd da DripStore foi desenvolvido em equipes, eu fique responsável pelo desenvolvimento da seção header(cabeçalho) e da "hero" que se trata do carrossel animado, cada integrante ficou responsável por realizar seus commits em suas branchs, no final o merge foi realizado, os conflitos foram resolvidos e aprensentamos o projeto em sala de aula.
 
-Currently, two official plugins are available:
+# Tecnoligias usadas no projeto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML;
+- CSS;
+- Javascript;
+- React;
+- Vite.js
+- Node.js
